@@ -101,5 +101,4 @@ def evaluate(collection_name, top_k=5):
     return precision_at_1, precision_at_3, precision_at_5
 
 if __name__ == "__main__":
-    evaluate("atsb_cs500_co0", top_k=5)
     evaluate("atsb_cs500_co100", top_k=5)
